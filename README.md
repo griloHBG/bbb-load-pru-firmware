@@ -6,6 +6,10 @@ A simple bash script that installs PRU's firmware on **Beaglebone Black** (that 
 
 How to use:
 
+```
+load_pru_fimware.sh <firmware_file> <pru_number>
+```
+
 Let's say you have a `button_led_1.out` (located at `/home/debian/PRU_testing/pru-software-support-package-5.6.0/labs/Hands_on_Labs/lab_2/solution/button_led_1/gen/`) file that you want to load to **PRU1**. So:
 
 ```
