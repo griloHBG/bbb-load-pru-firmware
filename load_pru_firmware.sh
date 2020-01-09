@@ -1,9 +1,9 @@
 
-#pru_number is the first command line argument
-pru_number=$1
+#firware_file is the first command line argument
+firmware_file=$1
 
-#firware_file is the second
-firmware_file=$2
+#pru_number is the second
+pru_number=$2
 
 # if pru_number is not 0 neither 1 or firmware_file is not readable
 if [[ $pru_number != 0 ]] && [[ $pru_number != 1 ]] || [[ ! -r $firmware_file ]]
